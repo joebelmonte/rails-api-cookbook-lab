@@ -17,3 +17,12 @@
 #                password: 'abc123',
 #                password_confirmation: nil)
 # end
+
+Recipe.create([
+                { name: 'Cheese Quesadilla',
+                  directions: 'Cook on grill' },
+                { name: 'Pasta',
+                  directions: 'Boil in water' },
+                { name: 'Hamburgers',
+                  directions: 'Cook on grill' }
+              ])
